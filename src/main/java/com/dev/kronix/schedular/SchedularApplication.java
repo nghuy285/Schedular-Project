@@ -9,6 +9,7 @@ public class SchedularApplication {
 
 	public static void main(String[] args) {
 
+		ApplicationContext context = SpringApplication.run(SchedularApplication.class, args);
 	}
 
 }
